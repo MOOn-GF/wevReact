@@ -1,0 +1,22 @@
+.link {
+    
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+    transition: 0.9s;
+    font-family: lobs;
+    display: inline-block;
+    line-height: 30px;
+}
+.link:hover{
+    transform: scale(1.2);
+}
+.active { 
+    background-color: var(--main-color);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: background-color 0.3s, height 0.3s, transform 0.3s;
+ }

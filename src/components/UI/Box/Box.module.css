@@ -1,0 +1,30 @@
+.boxname{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: bitter;
+    
+}
+.box{
+width: 400px;
+background-color: var(--sec-text);
+display: flex;
+gap: 5px;
+font-size: 1.2rem;
+
+}
+.image{
+    width: 100px;
+}
+.box_contain{
+    display: flex;
+    flex-direction: column;
+gap: 4px;
+    font-family: bitter;
+}
+ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+li{
+    margin-bottom: 9px;
+}

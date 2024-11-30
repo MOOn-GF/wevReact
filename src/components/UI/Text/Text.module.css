@@ -1,0 +1,9 @@
+.txt{
+
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    margin: 20px 0px;
+    font-weight: 700;
+    
+  }

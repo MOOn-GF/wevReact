@@ -1,0 +1,12 @@
+.Btn{
+    border-radius: 10px;
+    font-weight: 800;
+    color: var(--btn-color);
+    border: 3px solid var(--btn-color);
+    transition: 0.3s;
+    z-index: 2;
+}
+.Btn:hover{
+    color: var(--btn-hicolor);
+    border: 3px solid var(--btn-hicolor);
+}

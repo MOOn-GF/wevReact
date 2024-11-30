@@ -1,0 +1,11 @@
+.box{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: bitter;
+    width: 200px;
+    z-index: 2;
+  }
+  @media screen and (max-width:478px) {
+    .box{font-size: 25px;
+    width: 150px;}
+  }

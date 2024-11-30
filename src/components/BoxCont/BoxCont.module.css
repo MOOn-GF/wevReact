@@ -1,0 +1,16 @@
+.Boxcont{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:810px) {
+    .Boxcont{
+        flex-direction: column;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:450px) {
+    .Boxcont{
+        margin-left: 0%;
+        gap: 10px;
+    }
+}
