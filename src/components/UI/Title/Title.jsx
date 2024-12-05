@@ -9,8 +9,8 @@ function Title({text,color}) {
   return (
     <>
     
-    <h1 className={st.box} style={styles}>
-   {text}
+    <h1 className={st.box} style={styles}><a href="#">{text}</a>
+   
     </h1>
     </>
   )

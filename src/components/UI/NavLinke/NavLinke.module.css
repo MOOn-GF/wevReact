@@ -1,22 +1,30 @@
 .link {
     
     text-decoration: none;
-    font-weight: bolder;
+   
     font-size: 18px;
     transition: 0.9s;
     font-family: lobs;
     display: inline-block;
+    padding: 10px;
     line-height: 30px;
 }
 .link:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .active { 
     background-color: var(--main-color);
-    height: 30px;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     border-radius: 10px;
     transition: background-color 0.3s, height 0.3s, transform 0.3s;
+ }
+
+ @media screen and (max-width:550px) {
+    .link{
+        font-size: small;
+    }
  }

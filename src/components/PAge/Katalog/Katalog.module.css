@@ -1,0 +1,16 @@
+.kat{
+height: 100% ;
+padding: var(--pad-big);
+background-color: var(--sec-color);
+}
+
+@media screen and (max-width:350px) {
+    .kat{
+        padding: var(--pad);
+    }
+}
+@media screen and (max-width:3250px) {
+    .kat{
+        padding: 0px;
+    }
+}

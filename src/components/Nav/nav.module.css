@@ -10,9 +10,15 @@
   .list {
       list-style-type: none;
       display: flex;
+      align-items: center;
       gap: 30px;
     }
-
+@media screen and (max-width:570px) {
+    .list{
+        gap: 10px;
+        font-size: var(--small);
+    }
+}
 @media screen and (max-width:478px) {
 .nav{
    justify-content: start; 

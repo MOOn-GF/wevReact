@@ -1,8 +1,8 @@
 import React from 'react';
-import st from './Block.module.css'
+import st from './Card.module.css'
 
 import Button from '../Button/Button';
-export default function Block({ link,img,ptext,akc,title }){
+ function Card ({ link,img,ptext,akc,title }){
 const styles ={
    backgroundImage: `url(${img})`
 }
@@ -17,3 +17,4 @@ const styles ={
         </a> 
  </div> );
   }
+  export default Card

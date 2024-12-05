@@ -1,0 +1,9 @@
+.textmain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    columns: var(--main-text);
+    font-family: ral;
+    margin: 20px 0px;
+    padding:  var(--pad);
+}

@@ -10,6 +10,7 @@ background-color: var(--sec-text);
 display: flex;
 gap: 5px;
 font-size: 1.2rem;
+font-family: lob;
 
 }
 .image{
@@ -27,4 +28,22 @@ ul{
 }
 li{
     margin-bottom: 9px;
+}
+@media screen and (max-width:550px) {
+    li{
+        font-size: var(--small);
+    }
+    .image{
+        width: 60px;
+    }
+    p{
+        font-size: small;
+    }
+}
+@media screen and (max-width:400px) {
+    .box{
+        width: 200px;}
+        .boxname{
+            font-size: 20px;
+        }
 }

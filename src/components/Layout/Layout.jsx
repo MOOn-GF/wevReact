@@ -8,10 +8,10 @@ function Layout({children}) {
     <>
     <div className='wrapper'>
         <div className="container">
-            <div className="header"><Nav></Nav>
-                </div>  
+            <header ><Nav></Nav>
+                </header>  
               <div className="main">{children}</div>    
-              <footer className="footer"><Footer/></footer>
+              <footer ><Footer/></footer>
                   </div>
     </div>
     </>

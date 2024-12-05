@@ -1,9 +1,16 @@
 import React from 'react'
 import st from './Svg.module.css'
-function Svg({img}) {
+function Svg({svg,w,onClick}) {
+  const style ={
+    width:w,
+
+  }
   return (
     <>
-    <img className={st.svg} src={img} alt="#" /></>
+    <div style={style}  className={st.svg} onClick={onClick}>
+    <img className={st.img}  src={svg} alt="icon" />
+    </div>
+    </>
   )
 }
 

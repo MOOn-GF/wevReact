@@ -1,0 +1,42 @@
+.list{
+    color: #000;
+    display: grid;
+}
+.box{
+    background: var(--main-color);
+ 
+     width: 300px;;
+     border: 5px solid var(--border-color);
+    padding: var(--pad-big);
+   border-radius: var(    --min-br);
+   height: auto;
+   overflow: hidden;
+   gap: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ }
+ .list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    place-items: center;
+    gap: 40px;
+    padding: 0%;
+    
+}
+.Name{
+    color: var(--name);
+    
+}
+@media screen  and (max-width:680px){
+    .list{
+        grid-template-columns:repeat(1,1fr)
+    }
+}
+@media screen and (max-width:300px) {
+    .box{
+        width: 250px;
+    }
+}

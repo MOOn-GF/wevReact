@@ -1,12 +1,18 @@
 .Btn{
-    border-radius: 10px;
+    border-radius: var(--max-br);
     font-weight: 800;
     color: var(--btn-color);
     border: 3px solid var(--btn-color);
     transition: 0.3s;
     z-index: 2;
+    font-family: bitter;
 }
 .Btn:hover{
     color: var(--btn-hicolor);
     border: 3px solid var(--btn-hicolor);
+}
+@media screen  and (max-width:230px){
+    .Btn{
+        width: 100px;
+    }
 }

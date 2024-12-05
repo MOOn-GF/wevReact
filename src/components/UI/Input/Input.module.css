@@ -1,0 +1,11 @@
+input{
+   transition: 0.3s;
+    border-radius: var(--min-br);
+    outline: none;
+    height: 25px;
+    text-align: center;
+}
+input:focus{
+    transform: scale(1.3);
+    border: 3px solid #555;
+}

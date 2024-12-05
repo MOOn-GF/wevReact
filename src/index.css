@@ -6,14 +6,23 @@
     --btn-color:#b35858;
     --btn-hicolor:#f67979;
     --logo:#8b231d;
-    --main-text:black;
+    --main-text:rgb(61, 61, 61);;
     --sec-text:white;
     --name:#663399;
+    --border-color: #f0c0c8;
     /* fonts */
     --small:13px;
     --normal:17px;
-    --medium:21px;
-    --big:30px
+    --medium:24px;
+    --big:30px;
+    /* border */
+    --min-br:10px;
+    --mid-br:20px;
+    --max-br:30px;
+    /* padding */
+    --pad:10px;
+    --pad-norm:20px;
+    --pad-big:30px;
 }
 *{
   margin: 0%;
@@ -30,14 +39,14 @@ ul,ol{
  list-style: none;
 }
 @font-face {
-  font-family: bitter;
+  font-family: "bitter";
   src: url(../public/Fonts/Bitter-VariableFont_wght.ttf);
 }
 @font-face {
-  font-family: lobs;
+  font-family: "lobs";
   src: url(../public/Fonts/LobsterTwo-Italic.ttf);
 }
 @font-face {
-  font-family: ral;
+  font-family: "ral";
   src: url(../public/Fonts/Raleway-Italic-VariableFont_wght.ttf);
 }

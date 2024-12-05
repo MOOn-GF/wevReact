@@ -1,0 +1,22 @@
+[
+    { "id": 1, "name": "Шоколадный батончик", "price": 50, "ingredients": ["шоколад", "молоко", "орехи"],"img":"./Img/chocolate.png" },
+    { "id": 2, "name": "Карамельная конфета", "price": 10, "ingredients": ["сахар", "молоко", "масло"],"img":"./Img/caramel-candies.avif" },
+    { "id": 3, "name": "Жевательные мишки", "price": 30, "ingredients": ["желатин", "сахар", "фруктовый сироп"],"img":"./Img/marmel.jpeg" },
+    { "id": 4, "name": "Арахисовая паста", "price": 40, "ingredients": ["сахар", "сливки", "ваниль"],"img":"./Img/arahis.jpg" },
+    { "id": 5, "name": "Шоколадная плитка", "price": 100, "ingredients": ["какао-масло", "сахар", "молоко"],"img":"./Img/plitka.jpeg" },
+    { "id": 6, "name": "Вафельный рулет", "price": 70, "ingredients": ["вафли", "шоколад", "крем"],"img":"./Img/rul.jpeg" },
+    { "id": 7, "name": "Фруктовое желе", "price": 35, "ingredients": ["фруктовый сок", "желатин", "сахар"],"img":"./Img/jele.jpg" },
+    { "id": 8, "name": "Леденец на палочке", "price": 20, "ingredients": ["сахар", "вода", "пищевые красители"],"img":"./Img/ledenec.jpg" },
+    { "id": 9, "name": "Ореховая паста", "price": 120, "ingredients": ["арахис", "сахар", "растительное масло"],"img":"./Img/pasta.jpg" },
+    { "id": 10, "name": "Мармеладные дольки", "price": 40, "ingredients": ["сахар", "пектин", "фруктовый сироп"],"img":"./Img/dolka.jpg" },
+    { "id": 11, "name": "Пастила", "price": 60, "ingredients": ["яблоки", "сахар", "яичный белок"], "img":"./Img/pastila.jpg" },
+    { "id": 12, "name": "Пралине", "price": 90, "ingredients": ["орехи", "сахар", "шоколад"], "img":"./Img/pral.jpg" },
+    { "id": 13, "name": "Шоколадные трюфели", "price": 150, "ingredients": ["какао", "сливки", "масло"], "img":"./Img/truf.jpg" },
+    { "id": 14, "name": "Фруктовые леденцы", "price": 25, "ingredients": ["сахар", "фруктовые экстракты", "вода"], "img":"./Img/frkt.jpg" },
+    { "id": 15, "name": "Зефир", "price": 50, "ingredients": ["сахар", "желатин", "ваниль"], "img":"./Img/zefit.jpg" },
+    { "id": 16, "name": "Сахарная пудра", "price": 15, "ingredients": ["сахар"], "img":"./Img/pudra.jpg" },
+    { "id": 17, "name": "Кокосовые шарики", "price": 110, "ingredients": ["кокосовая стружка", "сливки", "шоколад"], "img":"./Img/kokos.jpg" },
+    { "id": 18, "name": "Йогуртовая конфета", "price": 45, "ingredients": ["йогурт", "сахар", "фруктовый сироп"], "img":"./Img/frut.jpeg" },
+    { "id": 19, "name": "Молочный ирис", "price": 35, "ingredients": ["сгущенное молоко", "сахар", "масло"], "img":"./Img/iris.jpeg" },
+    { "id": 20, "name": "Медовые соты", "price": 75, "ingredients": ["мед", "сахар", "сода"], "img":"./Img/honey.jpg" }
+]

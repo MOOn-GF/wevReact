@@ -1,8 +1,8 @@
 import React from 'react'
 import st from './Text.module.css'
-function Text({text,fonts,ff,ital,color}) {
+function Text({text,ff,ital,color}) {
     const styles={
-        fontSize:fonts,
+        
     fontFamily:ff,
 fontStyle:ital,
 color:color}

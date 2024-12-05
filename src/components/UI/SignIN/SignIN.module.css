@@ -1,5 +1,57 @@
 .box{
     width: 200px;
     display:flex;
-    justify-content: end;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+@media screen and (max-width:550px) {
+    .box{
+        width: 100px;
+    }
+}
+
+.Signinwindow{
+    width: 400px;
+    height: 50%;
+    background-color: var(--main-color);
+    position: absolute;
+    top: -900px;
+    transition: 0.3s;
+    margin-top: 50px;
+    z-index: 4;
+    border: 5px solid var(--border-color);
+    padding: var(--pad-big);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.inp__cont{
+    gap: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+flex-direction: column;
+}
+.back_btn{
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+}
+.active{
+    flex-direction: column;
+    display: flex;
+position: absolute;
+top: 0px;
+padding: 10px;
+border-radius: 10px;}
+
+@media screen and (max-width:490px) {
+    .Signinwindow{
+        width: 80%;
+    }
 }
