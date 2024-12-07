@@ -1,0 +1,46 @@
+.AboutCont{
+    width: 80%;
+    background-color:var(--main-color) ;
+    height: auto;
+    border: 3px solid black;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.AboutWrapper{
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    display: flex;
+    
+    padding: var(--pad);
+}
+.AboutList{
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+}
+.listItem{
+    width: 100%;
+    transition: 0.3s;
+     border-bottom: 5px solid black;
+     
+     cursor: pointer;
+     padding: 0px var(--pad);
+}
+.listItem:hover{
+    background-color: rgb(243, 165, 178);
+}
+.Itemroute{
+    width: 100%;
+}
+@media screen and (max-width:700px) {
+    .AboutCont{
+        width: 100%;
+    }
+}
+@media screen and(max-width:500px) {
+    .AboutWrapper{
+    padding:none;
+}
+}

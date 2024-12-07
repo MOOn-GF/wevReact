@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding: 0px var(--pad);
+    background-color: var(--background-color);
+
 }
 @media screen and (max-width:810px) {
     .Boxcont{

@@ -2,7 +2,10 @@
     font-size: 30px;
     font-weight: 700;
     font-family: bitter;
-    
+    color: var(--text-color);
+}
+.text{
+    color: var(--text-color);
 }
 .box{
 width: 400px;
@@ -11,6 +14,8 @@ display: flex;
 gap: 5px;
 font-size: 1.2rem;
 font-family: lob;
+background-color: var(--background-color);
+color: var(--text-color);
 
 }
 .image{
@@ -26,7 +31,7 @@ ul{
     list-style-type: disc;
     padding-left: 20px;
 }
-li{
+.li{
     margin-bottom: 9px;
 }
 @media screen and (max-width:550px) {

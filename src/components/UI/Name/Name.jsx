@@ -1,12 +1,14 @@
 import React from 'react'
 import style from './Name.module.css'
-function Name({text,fontss,fw}) {
+function Name({text,ff,fontss,fw,Class,color}) {
     const style = { 
+      fontFamily:ff,
         fontSize: fontss,
-        fontWeight: fw 
+        fontWeight: fw,
+        color:color
     };
   return (
-    <><div style={style} className={style.Name}>{text}</div></>
+    <><div style={style} className={style[Class]}>{text}</div></>
   )
 }
 

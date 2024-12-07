@@ -1,7 +1,7 @@
 .link {
     
     text-decoration: none;
-   
+   color: var(--text-color);
     font-size: 18px;
     transition: 0.9s;
     font-family: lobs;

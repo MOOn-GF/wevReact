@@ -1,14 +1,10 @@
 .box{
-    width: 200px;
+    width: 30px;
     display:flex;
-    justify-content: flex-end;
+    
     cursor: pointer;
 }
-@media screen and (max-width:550px) {
-    .box{
-        width: 100px;
-    }
-}
+
 
 .Signinwindow{
     width: 400px;
@@ -26,6 +22,9 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
+}
+.signin{
+    color: var(--text-color);
 }
 .inp__cont{
     gap: 10px;

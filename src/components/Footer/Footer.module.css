@@ -4,7 +4,7 @@
     background-color: var(--footer);
     color: var(--sec-text);
     padding: var(--pad-big) var(--pad);
-   
+    justify-content: center;
     display: flex;
 }
 .footer_katal{

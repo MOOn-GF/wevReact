@@ -9,7 +9,7 @@ background-color: var(--sec-color);
         padding: var(--pad);
     }
 }
-@media screen and (max-width:3250px) {
+@media screen and (max-width:250px) {
     .kat{
         padding: 0px;
     }

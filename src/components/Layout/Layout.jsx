@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
-import Nav from '../Nav/Nav';
-
+import Nav from '../Nav/Nav'
+import st from './Layout.module.css'
 function Layout({children}) {
   
   return (
@@ -10,7 +10,7 @@ function Layout({children}) {
         <div className="container">
             <header ><Nav></Nav>
                 </header>  
-              <div className="main">{children}</div>    
+              <div className={st.main}>{children}</div>    
               <footer ><Footer/></footer>
                   </div>
     </div>

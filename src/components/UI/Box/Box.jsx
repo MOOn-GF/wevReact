@@ -9,11 +9,11 @@ function Box({boxname,boxtext,boxli,imglink}) {
         
     <div className={st.box_contain}>
     <h1 className={st.boxname}>{boxname}</h1>
-    <p>{boxtext}</p>
+    <p className={st.text}>{boxtext}</p>
     <ul>
          {typeof boxli === 'string'
     ? boxli.split(',').map((item, index) => (
-        <li key={index}>{item.trim()}</li>
+        <li className={st.text} key={index}>{item.trim()}</li>
       ))
     : boxli.map((item, index) => (
         <li key={index}>{item}</li>

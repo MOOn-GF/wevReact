@@ -1,12 +1,13 @@
 .txt{
-
+  background-color: var(--main-color);
     display: flex;
     text-align: center;
     justify-self: center;
-    margin: 20px 0px;
+    
     font-weight: 700;
     font-size: var(--medium);
     font-family: bitter;
+    gap: var(--mgap);
   }
 
   @media screen and(max-width:550px) {
@@ -14,3 +15,14 @@
       font-size: var(--normal);
     }
   }
+.Price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: var(--main-color);
+  border-radius: var(--min-br);
+  border: 3px solid var(--btn-hicolor);
+
+}

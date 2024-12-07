@@ -1,0 +1,37 @@
+.InfoCOnt{
+display: flex;
+gap: 10px;
+margin: 10px 0px;
+}
+.textCont{
+    width: 400px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-family: bitter;
+}
+.text_data{
+    font-family: biiter;
+}
+.text_name{
+    font-family: ral;
+}
+.text{
+    display: flex;
+    font-family: lobs;
+}
+@media screen and (max-width:550px){
+    .InfoCOnt{
+        flex-direction:column ;
+    }
+}
+@media screen and (max-width:400px){
+    .textCont{
+        width: 300px;
+    }
+    .text{
+        width: 300px;
+    }
+}

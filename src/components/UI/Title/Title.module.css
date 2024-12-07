@@ -3,7 +3,7 @@
     font-weight: 600;
     font-family: bitter;
     width: 200px;
-    z-index: 2;
+    
   }
   @media screen and (max-width:550px) {
     .box{font-size: 25px;

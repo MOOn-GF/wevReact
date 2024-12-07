@@ -2,8 +2,23 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    columns: var(--main-text);
+    color: var(--main-text);
     font-family: ral;
     margin: 20px 0px;
     padding:  var(--pad);
+    background-color: var(--background-color);
+}
+.TextCont
+{
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--background-color);
+}
+@media screen  and (max-width:560px){
+  .TextCont{
+    height: 200px;
+    gap: 20px;
+  }  
 }

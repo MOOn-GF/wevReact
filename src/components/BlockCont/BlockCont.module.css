@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin: 40px 0px;
-    padding: 0px var(--big); 
+   ; 
     background-color: var(--sec-color);
     padding: 0px var(--pad-norm);
     gap: 20px;
@@ -21,7 +21,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 0%;
+        padding: 0px;
     }
     
 }

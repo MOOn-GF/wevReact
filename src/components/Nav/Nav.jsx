@@ -4,6 +4,7 @@ import st from './Nav.module.css'
 import Title from '../UI/Title/Title'
 import SignIN from '../UI/SignIN/SignIN'
 import Burgermen from '../UI/Burgermen/Burgermen'
+import ThemeBtn from '../ThemeBtn/ThemeBtn'
 function Nav() {
   return (
     <>
@@ -24,7 +25,12 @@ function Nav() {
             
 
         </ul>
-        <SignIN></SignIN>
+        
+        <div className='theme_options'>
+            <ThemeBtn theme="dark"></ThemeBtn>
+            <ThemeBtn theme="light"></ThemeBtn>
+            <SignIN></SignIN>
+        </div>
     </nav>
     
     </>

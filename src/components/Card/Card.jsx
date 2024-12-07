@@ -1,7 +1,7 @@
 import React from 'react';
 import st from './Card.module.css'
 
-import Button from '../Button/Button';
+import Button from '../UI/Button/Button';
  function Card ({ link,img,ptext,akc,title }){
 const styles ={
    backgroundImage: `url(${img})`
@@ -13,7 +13,7 @@ const styles ={
         <h1 className={st.untext} >{title}</h1>
         <p className={st.untext}>{ptext} </p>
         <h1 className={st.akc}>{akc}</h1>
-        <Button h="60px" bkc="var(--sec-color)" wid="200px" fs="15px">купить по вкусной цене</Button>
+        <Button onClick h="60px" bkc="var(--sec-color)" wid="200px" fs="15px">купить по вкусной цене</Button>
         </a> 
  </div> );
   }

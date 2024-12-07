@@ -1,7 +1,6 @@
 import React from 'react'
 import st from "./BlockCont.module.css"
-import Card from '../UI/Card/Card'
-
+import Card from '../Card/Card'
 function BlockCont() {
    
   return (

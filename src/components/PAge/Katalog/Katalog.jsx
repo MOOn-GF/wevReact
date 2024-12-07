@@ -10,7 +10,6 @@ function Katalog() {
     fetch('./Json/katalog.json')
       .then((response) => response.json())
       .then((data) => {
-       console.log(data);
        setDota(data)
       });
   },[] );
